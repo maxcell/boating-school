@@ -26,7 +26,7 @@ class Student
     def boating_tests
         BoatingTest.all.select do |test| 
             test.student == self
-            en
+        end
     end
 
 # class methods
